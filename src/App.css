@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.box-border {
+  border: 2px solid;
+  padding: 6px;
+  margin: 6px;
+}
+
+/* Box Color */
+.colorBox {
+  padding: 50px;
+  color: white;
+}
+
+/* credit card */
+.credit-card {
+
+  border-radius: 20px;
+  padding: 10px;
+  width: 330px;
+  display: flex;
+  background: bisque;
+  flex-direction: column;
+}
+.credit-card p{
+  margin: 8px;
+}
+.right { 
+  text-align: right;
+} 
+
+.credit-cards{
+  display: flex;
+  gap: 30px;
+}
+
+

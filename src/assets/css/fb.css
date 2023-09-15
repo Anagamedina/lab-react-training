@@ -1,0 +1,22 @@
+.fb_item{
+    display: flex;
+}
+.fb_item img{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+.filtros{
+    display: flex;
+    gap: 7px;
+    overflow-y: scroll;
+}
+.filtros > div{
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+.filtros .selected{
+    background-color: aquamarine;
+}
